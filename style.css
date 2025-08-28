@@ -8,3 +8,9 @@ body{
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+header{
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
