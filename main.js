@@ -59,4 +59,14 @@ const perguntas = [
              "Serão sempre maiores, mais lentos e inacessíveis ao público geral"
         ]
     },
-]
+];
+
+let atual = 0;
+let perguntaAtual;
+
+function mostrarPergunta(){
+    perguntaAtual = perguntas [atual];
+    caixaPerguntas.textContent = perguntaAtual.enunciado;
+}
+
+mostrarPergunta();
