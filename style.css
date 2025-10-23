@@ -6,7 +6,7 @@
   --cor-texto: #D7F9FF;
 }
 
-header{
+/*header{
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -14,7 +14,7 @@ header{
   margin: 15px;
   color: white;
   font-family: 'Permanent Marker';
-}
+}*/
 
 body{
   background-color: var(--cor-fundo);
