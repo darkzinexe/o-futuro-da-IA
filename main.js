@@ -72,10 +72,10 @@ function mostraPergunta(){
 }
 
 function mostraAlternativas(){
-    for(const alternativa of perguntaAtual.alternativas){
+    for(const alternativas of perguntaAtual.alternativas){
         const botaoAlternativas = document.createElement("button");
-        botaoAlternativas.textContent = alternativa;
-        botaoAlternativas.addEventListener("click", () => respostaSelecionada(alternativa));
+        botaoAlternativas.textContent = alternativas;
+        botaoAlternativas.addEventListener("click", () => respostaSelecionada(alternativas));
         caixaAlternativas.appendChild(botaoAlternativas);
     }
 }
